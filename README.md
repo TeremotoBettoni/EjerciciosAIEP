@@ -4,4 +4,4 @@ Repositorio para compartir respuestas de los ejercicios prácticos realizados en
 
 ## Detalles de clase
 ### 2023/03/07
-Reconocimiento de entorno, creacion de repositorio git 
+Reconocimiento de entorno, creacion de repositorio git y archivo index.html
