@@ -10,3 +10,7 @@ Reconocimiento de entorno, creacion de repositorio git y archivo index.html
 Reconocimiento de etiquetas HTML, elaboracion de 
 Actividad 2.1 - Página Web simple para tienda ropaTarea
 Actividad 2.2 - Tabla con disponibilidad de productos
+
+### 2023/03/11
+Actividad 2.3 - Tabla Ventas
+
