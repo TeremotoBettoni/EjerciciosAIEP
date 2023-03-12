@@ -14,3 +14,6 @@ Actividad 2.2 - Tabla con disponibilidad de productos
 ### 2023/03/11
 Actividad 2.3 - Tabla Ventas
 
+### 2023/03/12
+Actividad 2.4 - Formulario de Registro
+

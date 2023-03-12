@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">OFERTAS</a></li>
+                <li><a href="#">PRODUCTOS</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- HOME SECTION -->
+        <h1>Formulario de Registro</h1>
+            <form action="/registro" method="get">
+                <fieldset>
+                    <legend>Datos de la cuenta:</legend>
+                    <label for="nombre_usuario">Nombre completo:</label>
+                    <input type="text" id="nombre_usuario" name="nombre_usuario" minlength="6" required><br>
+
+                    <fieldset>
+                        <legend>Fecha de nacimiento:</legend>
+                        <label for="dia">Día:</label>
+                        <select id="dia" name="dia" required>
+                            <option value="">Día</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select><br>
+                        <!--Aparte de generar la lista desplegable manual, tambien se podria generar mediante un input del type month un desplegable de mes y año-->
+                        <label for="mes">Mes:</label>
+                        <select id="mes" name="mes" required>
+                            <option value="">Mes</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select><br>
+                    
+                        <!--Para el apartado de año decidi colocar un type number con un step y min y max ya que para año hay un rango muy amplio de opciones-->
+                        <label for="yeard">Año:</label>
+                        <input type="number" id="yeard" name="yeard" value="2010" step="1" min="1950" max="2023" required><br>
+
+                    </fieldset>
+                    
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required><br>
+                
+                    <label for="ciudad">Ciudad de residencia:</label>
+                    <select id="ciudad" name="ciudad" required>
+                        <option value="">Seleccione una opción</option>
+                        <option value="Bogotá">Bogotá</option>
+                        <option value="Medellín">Medellín</option>
+                        <option value="Cali">Cali</option>
+                        <option value="Barranquilla">Barranquilla</option>
+                        <option value="Chile">Chile</option>
+                    </select><br>
+
+                    <label for="genero">Género:</label>
+                    <label><input type="radio" id="genero" name="genero" value="hombre" required> Hombre</label>
+                    <label><input type="radio" name="genero" value="mujer"> Mujer</label><br>
+
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" minlength="8" required><br>
+                
+                    <label for="confirmar_contrasena">Confirmar contraseña:</label>
+                    <input type="password" id="confirmar_contrasena" name="confirmar_contrasena" minlength="8" required><br>
+                
+                    <label><input type="checkbox" id="terminos" value="terminos_checkbox" required>Terminos y condiciones</label><br>
+                </fieldset>
+
+                <button type="submit">Registrar</button>
+            </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
