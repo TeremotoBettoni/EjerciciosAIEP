@@ -105,8 +105,9 @@
                     <label><input type="radio" name="genero" value="mujer"> Mujer</label><br>
 
                     <label for="contrasena">Contraseña:</label>
-                    <input type="password" id="contrasena" name="contrasena" minlength="8" required><br>
-                
+                    <input type="password" id="contrasena" name="contrasena" pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{8,15}$" required>
+                    <p>Debe tener al menos 8 caracteres y contener al menos una letra mayúscula, una letra minúscula y un número.</p><br>
+                    
                     <label for="confirmar_contrasena">Confirmar contraseña:</label>
                     <input type="password" id="confirmar_contrasena" name="confirmar_contrasena" minlength="8" required><br>
                 
