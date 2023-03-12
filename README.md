@@ -16,4 +16,5 @@ Actividad 2.3 - Tabla Ventas
 
 ### 2023/03/12
 Actividad 2.4 - Formulario de Registro
+Actividad 2.5 - Galería de Arte
 
