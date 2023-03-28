@@ -1,0 +1,15 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 100px 300px 100px;
+    grid-template-areas:
+        "h h h h h h"    
+        "m m m n n a"    
+        "f f f n n a";
+    gap: 10px;
+}
+header {grid-area: h; background: rgb(253, 218, 0);}
+nav {grid-area: n; background: rgb(253, 218, 0);}
+article {grid-area: m;  background: rgb(253, 218, 0);}
+aside {grid-area: a;  background: rgb(253, 218, 0);}
+footer {grid-area: f;  background: rgb(253, 218, 0);}
