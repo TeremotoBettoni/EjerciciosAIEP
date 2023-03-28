@@ -1,11 +1,11 @@
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-auto-rows: 100px 300px 100px;
     grid-template-areas:
-        "h h h"    
-        "n m a"    
-        "n f f";
+        "h h h h h h"    
+        "n n m m m a"    
+        "n n f f f f";
     gap: 10px;
 }
 header {grid-area: h; background: rgb(253, 218, 0);}
