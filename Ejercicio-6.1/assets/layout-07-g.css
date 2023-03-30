@@ -4,10 +4,10 @@ body {
     grid-template-rows: repeat(4, fr);
     grid-auto-rows: 100px 300px 100px 100px;
     grid-template-areas:
-        "h h h h h h"    
+        "n n h h h h"    
         "n n m m m m"       
         "n n a a a a"      
-        "f f f f f f";
+        "n n f f f f";
     gap: 10px;
 }
 header {grid-area: h;}
