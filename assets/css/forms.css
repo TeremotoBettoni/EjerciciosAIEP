@@ -29,6 +29,29 @@ button, input {
     overflow: visible;
 }
 
+.theme-btn-send{
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #edecec;
+    color: #4b4342;
+    display: inline-block;
+    font-family: Merienda One;
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 10px;
+    min-width: 160px;
+    padding: 4px 20px;
+    position: relative;
+    text-align: center;
+    transition: all 500ms ease;
+    white-space: nowrap;
+}
+.theme-btn-send:hover{
+    background-color: #4b4342;
+    border: 1px solid #4b4342;
+    color: #ffffff;
+}
+
 input, textarea{
     border-radius: 6px;
     border: 1px solid #edecec;
