@@ -1,0 +1,183 @@
+/*** 
+====================================================================
+			Fonts
+====================================================================
+***/
+
+@import url('https://fonts.googleapis.com/css?family=ABeeZee:400,400i|Roboto:300,400,500,700|Leckerli+One|Merienda+One&display=swap');
+
+/*
+	font-family: 'Merienda One', cursive;
+	font-family: 'ABeeZee', sans-serif;
+	font-family: 'Leckerli One', cursive;
+*/
+/*** 
+====================================================================
+		Reset
+====================================================================
+ ***/
+
+ *{
+	border:none;
+	font-size: 100%;
+	margin:0px;
+	outline:none;
+	padding:0px;
+}
+
+/*
+====================================================================
+	Grid
+====================================================================
+ ***/
+
+body {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+        "h h h h h h"    
+        "t t t t t t"       
+        "c c c d d d" 
+        "c c c d d d"     
+        "f f f f f f";
+    gap: 10px;
+}
+header {grid-area: h;}
+.title-principal{grid-area: t;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	margin-top: 7%;
+}
+.contact{grid-area: c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-dates{grid-area: d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer {grid-area: f;}
+
+/*** 
+====================================================================
+	Global Settings
+====================================================================
+ ***/
+
+body {
+	-moz-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	background-color: #f0909f;
+	color:#4b4342;
+	font-family: 'ABeeZee', sans-serif;
+	font-size:14px;
+	font-weight:400;
+	line-height: 28px;
+}
+
+a{
+	color:#5fcac7;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#5fcac7;
+	outline:none;
+	text-decoration:none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	background:none;
+	font-family: 'Merienda One', cursive;
+	font-weight:normal;
+	line-height:1.2em;
+	margin:0px;
+	position:relative;
+    font-size: large;
+    padding: 0 0 25px 0;
+}
+img {
+    border-style: none;
+    vertical-align: middle;
+}
+
+.scroll-to-top {
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    border-radius: 50%;
+    bottom: 25px;
+    color: #ff91a4;
+    cursor: pointer;
+    cursor: pointer;
+    display: none;
+    font-size: 32px;
+    height: 50px;
+    line-height: 46px;
+    position: fixed;
+    right: 25px;
+    text-align: center;
+    transition: all 300ms ease;
+    width: 50px;
+    z-index: 99;
+}
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+/*
+====================================================================
+	Scroll To Top style
+====================================================================
+***/
+
+.scroll-to-top{
+	-moz-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	-webkit-transition:all 300ms ease;
+	position: fixed;
+	transition:all 300ms ease;		
+    border-radius: 50%;
+    bottom: 25px;
+    color: #ff91a4;
+    cursor: pointer;
+    cursor: pointer;
+    display: none;
+    font-size: 32px;
+    height: 50px;
+    line-height: 46px;
+    right: 25px;
+    text-align: center;
+    width: 50px;
+    z-index: 99;
+}
+
+.scroll-to-top:hover{
+	color: #ffffff;
+}
+
+.scroll-to-top svg{
+	-moz-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	-webkit-transition:all 300ms ease;
+	fill:transparent;
+	left: 0;
+	position: absolute;
+	stroke-width:12px;
+	stroke:#ff91a4;
+	top: 0;
+	transition:all 300ms ease;	
+	z-index: -1;
+}
+
+.scroll-to-top:hover svg{
+	fill: #ff91a4;
+}
+

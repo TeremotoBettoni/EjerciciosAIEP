@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee:400,400i|Roboto:300,400,500,700|Leckerli+One|Merienda+One&display=swap');
+
+footer{
+    -webkit-mask-image: url(../img/icons/shape_one.svg);
+    background-color: #5d5555;
+    color: #ffffff;
+    margin-bottom: -100px;
+    padding: 50px 0 0;
+    -webkit-mask-size: cover;
+    -webkit-mask-repeat: no-repeat;
+}
+
+footer .footerEnd{
+    -webkit-mask-image: url(../img/icons/shape_three.svg);
+    -webkit-mask-position: top;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: cover;
+    background-color: rgb(61, 56, 56);
+    margin-top: -20px;
+    padding-top: 50px;
+    padding: 30px 0;
+    position: relative;
+    text-align: center;
+}
+
+.footerUp{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.footer-column {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+    position: relative;
+    width: -webkit-fill-available;
+}
+
+.social-icon-one {
+    display: block;
+    position: relative;
+}
+
+.social-icon-one li {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 8px;
+    position: relative;
+    z-index: 2;
+}
+
+.social-icon-one li a {
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    color: #4b4342;
+    display: block;
+    font-size: 25px;
+    height: 60px;
+    line-height: 60px;
+    position: relative;
+    text-align: center;
+    transition: all 500ms ease;
+    width: 60px;
+}
+
+.fab {
+    font-family: 'Font Awesome 5 Brands';
+}
+
+.social-icon-one li svg {
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    fill: #ffffff;
+    left: 0;
+    position: absolute;
+    stroke-width: 35px;
+    stroke: #ffffff;
+    top: 0;
+    transition: all 500ms ease;
+    z-index: -1;
+}

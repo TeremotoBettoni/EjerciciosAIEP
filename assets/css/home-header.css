@@ -1,0 +1,67 @@
+header{
+    background-color: rgba(255,255,255,1);
+    left: 0px;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+}
+
+header .menu_wave{
+    -webkit-mask-position: bottom;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: cover;
+    background-color: #fff;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    margin-bottom: -30px;
+    padding-bottom: 25px;
+    position: absolute;
+    width: 100%;
+}
+.menu_wave{
+    -webkit-mask-image: url(../img/icons/shape_menu_1.svg);
+    -webkit-mask-position: bottom !important;
+}
+
+.menu-box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.logoimg{
+    max-width: 16%;
+    left: 41%;
+    position: absolute;
+}
+ul, li{
+    font-family: 'Merienda One', cursive;
+    list-style-type: none;
+    margin: 9px;
+}
+
+header, nav{
+    padding: 12px 0;
+    position: relative;
+}
+.menu-right{
+    display: flex;
+    float: right;
+    padding-left: 103px;
+}
+.menu-left{
+    display: flex;
+    float: left;
+    padding-right: 103px;
+}
+.menu-options{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen {
+    
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee:400,400i|Roboto:300,400,500,700|Leckerli+One|Merienda+One&display=swap');
+
+/*
+====================================================================
+	Form style
+====================================================================
+***/
+.icon{
+	max-width: 100px;
+}
+
+.contact-dates .contact-info li {
+    color: #4b4342;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 17px;
+    line-height: 29px;
+    margin-bottom: 17px;
+    position: relative;
+}
+
+button, input {
+    overflow: visible;
+}
+input, textarea{
+    border-radius: 6px;
+    border: 1px solid #edecec;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0.5rem 0 0.5rem 0;
+    min-height: 42px;
+    padding: 0 25px;
+    position: relative;
+    width: 100%;
+}
+
+textarea {
+    height: 130px;
+    resize: none;
+}
+
+.title{
+    display: grid;
+    place-items: center;
+}
+.contact-info{
+    display: grid;
+    place-items: center;
+}
