@@ -5,6 +5,13 @@
 	Form style
 ====================================================================
 ***/
+
+form{
+    display: grid;
+    place-items: center;
+
+}
+
 .icon{
 	max-width: 100px;
 }
@@ -21,6 +28,7 @@
 button, input {
     overflow: visible;
 }
+
 input, textarea{
     border-radius: 6px;
     border: 1px solid #edecec;

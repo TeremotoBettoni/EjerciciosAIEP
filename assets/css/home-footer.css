@@ -85,3 +85,23 @@ footer .footerEnd{
     transition: all 500ms ease;
     z-index: -1;
 }
+
+.social-icon-one li a:hover{
+	color: #ffffff;
+}
+
+.social-icon-one li a:hover svg{
+	fill: #4b4342;
+	stroke:#4b4342;
+}
+
+.iconfooter{
+    fill: #ffffff;
+    max-width: 53px;
+    max-height: 26px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
