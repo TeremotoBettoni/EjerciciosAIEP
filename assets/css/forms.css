@@ -69,12 +69,3 @@ textarea {
     height: 130px;
     resize: none;
 }
-
-.title{
-    display: grid;
-    place-items: center;
-}
-.contact-info{
-    display: grid;
-    place-items: center;
-}

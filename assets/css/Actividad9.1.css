@@ -107,6 +107,18 @@ img {
     vertical-align: middle;
 }
 
+.title{
+    display: grid;
+    place-items: center;
+}
+.contact-info{
+    display: grid;
+    place-items: center;
+}
+.contact-info a{
+    color: #4b4342;
+}
+
 .scroll-to-top {
     -moz-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
